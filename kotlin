@@ -1,0 +1,9 @@
+interactive-date-website/
+│
+├── css/
+│   └── styles.css
+├── js/
+│   └── scripts.js
+├── images/   (this can be empty for now)
+├── index.html
+└── README.md
