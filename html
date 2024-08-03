@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Date</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Interactive Date</h1>
+    </header>
+    <main>
+        <section id="activity">
+            <h2>Fun Activity</h2>
+            <p>Let's play a trivia game together!</p>
+            <button onclick="startTrivia()">Start Trivia</button>
+            <div id="trivia-container" style="display:none;">
+                <p id="question"></p>
+                <button onclick="answerTrivia(true)">True</button>
+                <button onclick="answerTrivia(false)">False</button>
+            </div>
+        </section>
+        <section id="canvas-section">
+            <h2>Draw Together</h2>
+            <canvas id="drawingCanvas" width="400" height="400" style="border:1px solid #000;"></canvas>
+            <button onclick="clearCanvas()">Clear</button>
+        </section>
+    </main>
+    <footer>
+        <p>Made with ♥ by [Your Name]</p>
+    </footer>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
