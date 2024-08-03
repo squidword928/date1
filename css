@@ -1,0 +1,16 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+}
+header, footer {
+    background-color: #008080;
+    color: white;
+    padding: 1em 0;
+}
+main {
+    padding: 2em;
+}
+#activity, #canvas-section {
+    margin: 2em 0;
+}
